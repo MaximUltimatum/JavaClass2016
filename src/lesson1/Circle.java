@@ -6,7 +6,7 @@ public class Circle {
 	
 	public Circle(Point centerPoint, double width){
 		center = centerPoint;
-		width = radius;
+		radius = width;
 	}
 	
 	public boolean contains(Point containedPoint){

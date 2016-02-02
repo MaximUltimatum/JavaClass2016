@@ -10,7 +10,7 @@ public class Point {
 	}
 	
 	public double distanceTo(Point SavedPoint){
-		final double hypotenuse = Math.sqrt((x - SavedPoint.x)^2 + (y - SavedPoint.y)^2);
+		double hypotenuse = Math.sqrt(Math.pow((x - SavedPoint.x),2) + Math.pow((y - SavedPoint.y),2));
 		
 		return hypotenuse;
 	}
