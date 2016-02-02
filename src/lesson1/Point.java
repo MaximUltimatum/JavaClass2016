@@ -5,13 +5,13 @@ public class Point {
 	private int y;
 	
 	public Point(int a, int b){
-		a = x;
-		b = y;
+		x = a;
+		y = b;
 	}
 	
-	public double distanceTo(Point InstantaniousClass){
+	public double distanceTo(Point SavedPoint){
+		double hypotenuse = Math.sqrt(Math.pow((x - SavedPoint.x),2) + Math.pow((y - SavedPoint.y),2));
 		
-		
-		return 0.0;
+		return hypotenuse;
 	}
 }
